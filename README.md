@@ -26,7 +26,7 @@ Our brains are amazing, they can recognise data at a glance. Here's a comparison
 |"http://www.example.com/"| A URL | string |
 |"etoin.shrdlu@gmail.com" | An email address | string|
 |"The computer is encredibly fast accurate and stupid, Stuart G. Walesh"| A quotation of Stuart G. Walesh | string|
-|La computadora es increíblemente rápida, precisa y estúpida.|Spanish Text|string|
+|"La computadora es increíblemente rápida, precisa y estúpida."|Spanish Text|string|
 
 Essentially our computers do not see or recognise much. It falls to programmer to code parsers and 'input validators' which can recognise the information they want their programs to operate on.
 
