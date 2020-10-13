@@ -22,7 +22,7 @@ Our brains are amazing, they can recognise data at a glance. Here's a comparison
 |--|--|--|
 |'42'|An integer. Also the meaning of life, the universe and everything?|string|
 |[3, 4, 5, 6, 7]|A monotonically increasing integer sequence|[]int|
-|[["Id", "Name"],[1, "Abe"],[2, "Alice"],[3, "Amy"]],|A Table of peoples' names|[][]interface{}|
+|[["Id", "Name"],[1, "Abe"],[2, "Alice"],[3, "Amy"]],|A Table of peoples' names, sorted alpabetically|[][]interface{}|
 |"http://www.example.com/"| A URL | string |
 |"etoin.shrdlu@gmail.com" | An email address | string|
 |"The computer is encredibly fast accurate and stupid, Stuart G. Walesh"| A quotation of Stuart G. Walesh | string|
@@ -30,11 +30,11 @@ Our brains are amazing, they can recognise data at a glance. Here's a comparison
 
 Essentially our computers do not see or recognise much. It falls to programmer to code parsers and 'input validators' which can recognise the information they want their programs to operate on.
 
-However this work is very repetitive. Especially repetitive now that computer programs run in swarms if communicating processes, dispersed around the world. Unfortunatley most computer langauges and operating systems were devised when there was only one machine, aka 'The Computer', likewise there was 'The Programmer' singular. 
+However this work is very repetitive. Especially repetitive now that computer programs run in swarms of communicating processes, dispersed around the world. Unfortunately most computer langauges and operating systems were devised when there was only one machine, aka 'The Computer', likewise there was 'The Programmer' singular. 
 
-Today we need to be able to write programs that commicate, above all, and we as programmers almost never write the whole system.
+Today we need to be able to write programs that communicate, above all, and we programmers almost never write the whole system.
 
-A small step forward is to provide existing languages with the ability to recognise data with the same facility that humans can. This module I hope) will be able to recognise most commonly-used data structures and provide interfaces for us to leverage in our programs.
+A small step forward is to provide existing languages with the ability to recognise data with the same facility that humans have. This module (I hope) will be able to recognise most commonly-used data structures and provide interfaces for us to leverage in our programs.
 
 # Taxonomy
 
